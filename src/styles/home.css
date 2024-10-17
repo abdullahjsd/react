@@ -1,0 +1,273 @@
+.home-container {
+    background-color: #6b44da;
+    height: 500px;
+}
+
+.heigth100 {
+    height: 500px;
+}
+
+/* categories components  */
+.categories-parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
+}
+
+.categories-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px 0;
+    transition: .7s;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.categories-child:hover {
+    background-color: #f3f0fe;
+}
+
+.categori-img-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.categories-parent img {
+    width: 60px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+
+
+}
+
+.categories-child a {
+    color: black;
+    transition: .6s;
+}
+
+.categories-child:hover a {
+    color: rgb(120, 73, 247);
+}
+
+/* download components */
+.download {
+    background-color: #fafafa;
+}
+
+.download-app a {
+    display: block !important;
+    margin-top: 13px;
+}
+
+.download-app {
+    margin-bottom: 1.7rem;
+
+}
+
+
+
+.download-bg-img {
+    background-image: url("https://cdn.getir.com/getirweb-images/common/illustration/doodle.png");
+    background-color: #4c3398;
+    border-radius: 7px;
+
+}
+
+.download-col-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-bg-img img {
+    cursor: pointer;
+    margin-right: 9px;
+}
+
+.phone-img {
+    width: 480px;
+}
+
+.download-box {
+    padding: 55px 18px 15px 18px;
+    height: 100%;
+}
+
+/* foother component */
+.getir-fother {
+    margin: 2rem 0;
+    height: 100%;
+    border-bottom: 2px solid rgb(247, 245, 245);
+}
+
+.getir-fother ul {
+    padding: 0;
+}
+
+.getir-fother ul li a {
+    margin-bottom: 5px;
+}
+
+.codeCover {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.codeCover img {
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 110px;
+    text-align: end;
+
+}
+
+.getir-fother a {
+    color: black;
+    display: inline-block;
+
+}
+
+.language {
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.language:hover {
+    color: rgb(93, 62, 188);
+    background-color: rgb(222, 222, 223);
+}
+
+.floter-icon a {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: rgb(148, 148, 148);
+    padding: 5px 5px;
+}
+
+.accordion {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .categories-parent {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    .phone-img {
+        width: 380px;
+    }
+
+    .codeCover-parent {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .phone-img {
+        display: none;
+    }
+
+    .download-app a {
+        display: block;
+
+    }
+
+    .download-col-parent {
+        padding-left: 50px;
+    }
+
+    .download-box h5 {
+        font-size: 17px !important;
+    }
+
+    .download-box p {
+        font-size: 15px !important;
+    }
+
+    .flex-100 {
+        flex: 1 100%;
+    }
+
+    .rotate-180 {
+        display: block;
+
+    }
+
+    .rotate_180:active {
+        rotate: 180deg;
+    }
+
+    .accordion {
+        display: block;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    .categories-parent {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .none-750 {
+        display: none;
+    }
+
+    .getir-floter-span {
+        display: block;
+    }
+
+    .floter-row {
+        display: block;
+        text-align: center;
+
+    }
+
+    .floter-row .col {
+        justify-content: center !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .categories-parent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+
+
+}

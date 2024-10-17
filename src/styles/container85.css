@@ -1,0 +1,11 @@
+.container85 {
+    max-width: 85%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container85 {
+        max-width: 97%;
+        margin: auto;
+    }
+}

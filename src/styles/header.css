@@ -1,0 +1,42 @@
+ .myHeader {
+     height: 50px;
+     background-color: rgb(76, 51, 152);
+
+ }
+
+ .myHeader a {
+     color: white;
+     font-weight: bold;
+     font-size: 15px;
+     margin-left: 3px;
+     transition: 1s;
+     border-radius: 5px 5px 0 0;
+     padding: 7px 10px 14px 10px;
+
+ }
+
+ .myHeader a:hover {
+     background-color: #7648f2;
+ }
+
+ .myHeader a svg {
+     margin-right: 10px;
+ }
+
+
+ @media only screen and (max-width: 1000px) {
+     .display-none {
+         display: none;
+     }
+ }
+
+ @media only screen and (max-width: 650px) {
+     .display {
+         display: none !important;
+     }
+
+     .myHeader a {
+         font-size: 13px;
+
+     }
+ }

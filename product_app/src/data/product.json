@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Telefon",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG",
+        "price": 10000
+    },
+    {
+        "id": 2,
+        "name": "Ayakkabı",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,e_sharpen/global/395016/04/fnd/TUR/w/1000/h/1000/fmt/png",
+        "price": 2506
+    },
+    {
+        "id": 3,
+        "name": "bilgisayar",
+        "img": "https://m.media-amazon.com/images/I/81rLuWsUWRL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 85999
+    },
+    {
+        "id": 4,
+        "name": "şişe",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bouteille.jpg/800px-Bouteille.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 50
+    },
+    {
+        "id": 5,
+        "name": "Koltuk",
+        "img": "https://evmoda.com.tr/cdn/shop/files/meyra-gray-black-_5_413x@3x.progressive.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 18000
+    },
+    {
+        "id": 6,
+        "name": "masa",
+        "img": "https://normod.com/cdn/shop/files/FUA_1033_800x.jpg?v=1699606712",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 12000
+    },
+    {
+        "id": 7,
+        "name": "tablo",
+        "img": "https://static.ticimax.cloud/33796/uploads/urunresimleri/buyuk/kanvas-tablo-kelebek-modelleri-cerceve-dd5-ee.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 110000
+    },
+    {
+        "id": 8,
+        "name": "televizyon",
+        "img": "https://cdn.dsmcdn.com/ty1517/product/media/images/prod/QC/20240901/11/ffc5aad2-82c8-33e0-aca5-27f1de9dc7cb/1_org_zoom.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 5000
+    },
+    {
+        "id": 9,
+        "name": "ayna",
+        "img": "https://www.tepehome.com.tr/rokoko-ayna-siyah-duvar-aynasi-tepehome-53104-21-B.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 999
+    },
+    {
+        "id": 10,
+        "name": "çanta",
+        "img": "https://cdn.kayra.com/UserFiles/urun/XL/22/04/07/12/45/abfcb34c-a6bd-41fa-9b51-831102458f40-62800.jpg",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi amet illo dignissimos exercitationem pariatur placeat adipisci, sit similique voluptatibus odit magnam suscipit sunt ratione eveniet ad optio illum enim.",
+        "price": 989
+    }
+]
